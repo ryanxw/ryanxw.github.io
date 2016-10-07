@@ -25,11 +25,19 @@ hr.light {
 }
 
 a {
-    color: #f05f40;
+    color: rgba(255, 255, 255,.7);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
+<style>
+.white { 
+ color : rgba(255, 255, 255,.7);
+}
+.black { 
+ color : rgba(0, 0, 0,.7);
+}
+</style>
 
 a:hover,
 a:focus {
